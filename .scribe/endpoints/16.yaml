@@ -1,0 +1,259 @@
+name: Province
+description: |-
+
+  API endpoints for Province
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/province
+    metadata:
+      groupName: Province
+      groupDescription: |-
+
+        API endpoints for Province
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Province موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      keyword:
+        name: keyword
+        description: 'value نباید بیشتر از 30 کاراکتر باشد.'
+        required: false
+        example: dmjndhnqvyx
+        type: string
+        enumValues: []
+        custom: []
+      count:
+        name: count
+        description: ''
+        required: false
+        example: 773.1881
+        type: number
+        enumValues: []
+        custom: []
+      province_id:
+        name: province_id
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      keyword: dmjndhnqvyx
+      count: 773.1881
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/province/store
+    metadata:
+      groupName: Province
+      groupDescription: |-
+
+        API endpoints for Province
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Province موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: ''
+        required: true
+        example: voluptas
+        type: string
+        enumValues: []
+        custom: []
+      slug:
+        name: slug
+        description: ''
+        required: true
+        example: optio
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      name: voluptas
+      slug: optio
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/province/show/{id}'
+    metadata:
+      groupName: Province
+      groupDescription: |-
+
+        API endpoints for Province
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Province موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: enim
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: enim
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/province/update/{id}'
+    metadata:
+      groupName: Province
+      groupDescription: |-
+
+        API endpoints for Province
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Province موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Update the specified resource in storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: nam
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: nam
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: ''
+        required: true
+        example: voluptatum
+        type: string
+        enumValues: []
+        custom: []
+      slug:
+        name: slug
+        description: ''
+        required: true
+        example: cum
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      name: voluptatum
+      slug: cum
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/province/delete/{id}'
+    metadata:
+      groupName: Province
+      groupDescription: |-
+
+        API endpoints for Province
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Province موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Remove the specified resource from storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: temporibus
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: temporibus
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

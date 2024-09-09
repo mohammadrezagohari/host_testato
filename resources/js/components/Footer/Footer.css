@@ -1,0 +1,76 @@
+@charset "UTF-8";
+footer {
+  height: 639px;
+  background-image: url("../../../images/بنر-لندینگ 1.png");
+}
+footer > h1 {
+  padding-top: 5rem;
+  padding-right: 7rem;
+}
+footer > .btn-container {
+  margin-top: 7rem;
+}
+footer > .btn-container > button {
+  background-color: #e2e2e2;
+  color: #4B4B4B;
+}
+footer > .btn-container > button:hover {
+  background-color: #4B4B4B;
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  footer {
+    height: 580px;
+    background-image: url("../../../images/بنر---لندینگ---موبایلی 2.png");
+  }
+  footer > h1 {
+    padding-top: 5rem;
+    padding-right: 2rem;
+  }
+  footer > .btn-container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 641px) and (max-width: 767.9px) {
+  footer {
+    height: 580px;
+  }
+  footer > h1 {
+    padding-top: 5rem;
+    padding-right: 4rem;
+  }
+  footer > .btn-container {
+    width: 50%;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  footer > h1 {
+    padding-top: 5rem;
+    padding-right: 4.5rem;
+  }
+  footer > .btn-container {
+    margin-top: 2rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  footer > .btn-container {
+    padding-right: 7rem;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */

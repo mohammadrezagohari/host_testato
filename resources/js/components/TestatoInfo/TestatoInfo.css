@@ -1,0 +1,129 @@
+.about-testato-container > h2 {
+  color: #1C75BC;
+}
+.about-testato-container .childControl .info-container:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.image-section {
+  position: relative;
+  height: 400px;
+  background-image: url("../../../images/svgs/1511 2.svg"), url("../../../images/svgs/Ellipse 72.svg");
+  background-position: center center, center center;
+  background-size: 100% 100%, 85% 85%;
+}
+
+.image-section, .phoneImage {
+  background-repeat: no-repeat;
+}
+
+.why-testato > .flex-items {
+  width: 100%;
+}
+.why-testato > .flex-items > .dec-container > .btn-container > button {
+  background-color: #EFEFEF;
+  color: #4B4B4B;
+}
+.why-testato > .flex-items > .dec-container > .btn-container > button:hover {
+  background-color: #4B4B4B;
+  color: #EFEFEF;
+}
+
+@media (max-width: 575.98px) {
+  .why-testato > .flex-items > .dec-container > .btn-container > button {
+    background-color: #EFEFEF;
+    color: #4B4B4B;
+  }
+  .why-testato > .flex-items > .dec-container > .btn-container > button:hover {
+    background-color: #4B4B4B;
+    color: #EFEFEF;
+  }
+  .about-testato-container > .childControl > .info-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-testato-container > .childControl > .info-container > .info-section {
+    min-width: 100%;
+  }
+  .about-testato-container > .childControl > .info-container > .image-section {
+    position: relative;
+    height: 300px;
+  }
+  .about-testato-container > .childControl > .info-container:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .about-testato-container > h2 {
+    color: #1C75BC;
+  }
+  .about-testato-container .childControl .info-container:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .why-testato > .flex-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+  }
+  .why-testato > .flex-items > .img-container {
+    margin-top: 3rem;
+    max-width: 100%;
+  }
+  .why-testato > .flex-items > .img-container > img {
+    max-width: 50%;
+  }
+  .why-testato > .flex-items > .dec-container > .btn-container {
+    flex-direction: column;
+  }
+  .why-testato > .flex-items > .dec-container > .btn-container > button {
+    background-color: #EFEFEF;
+    color: #4B4B4B;
+  }
+  .why-testato > .flex-items > .dec-container > .btn-container > button:hover {
+    color: #EFEFEF;
+  }
+  .about-testato-container > .childControl > .info-container:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 992px) {
+  .why-testato > .flex-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+  }
+  .why-testato > .flex-items > .img-container {
+    margin: 0;
+    max-width: 50%;
+  }
+  .why-testato > .flex-items > .dec-container > .btn-container {
+    margin: 0;
+  }
+  .why-testato > .flex-items > .dec-container > .btn-container > button {
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+    color: #4B4B4B;
+  }
+  .why-testato > .flex-items > .dec-container > .btn-container > button:hover {
+    background-color: #4B4B4B;
+    color: #EFEFEF;
+  }
+  .about-testato-container > .childControl > .info-container {
+    flex-direction: row;
+  }
+  .about-testato-container > .childControl > .info-container:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/*# sourceMappingURL=TestatoInfo.css.map */

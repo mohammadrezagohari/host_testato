@@ -1,0 +1,29 @@
+.contactModal {
+  transition: all 0.3s;
+}
+
+.contactInfo h2 {
+    font-family: 'kalameh2', serif;
+}
+
+ul > li:nth-child(1) > span {
+  border-bottom: 2px solid #A490E7;
+  padding-bottom: 0.8rem;
+}
+ul > li:nth-child(2) > span {
+  border-bottom: 2px solid #E79990;
+  padding-bottom: 0.8rem;
+}
+ul > li:nth-child(3) > span {
+  border-bottom: 2px solid #909DE7;
+  padding-bottom: 0.8rem;
+}
+ul > li:nth-child(4) > span {
+  border-bottom: 2px solid #E790A7;
+  padding-bottom: 0.8rem;
+}
+ul > li > span {
+  color: #595B5D;
+}
+
+/*# sourceMappingURL=ContactUs.css.map */

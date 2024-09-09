@@ -1,0 +1,500 @@
+name: 'Wallet Section'
+description: |-
+
+  API endpoints for Wallet Services
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/wallet
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/wallet/store
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      amount:
+        name: amount
+        description: ''
+        required: true
+        example: 183.517764
+        type: number
+        enumValues: []
+        custom: []
+      bonus:
+        name: bonus
+        description: ''
+        required: true
+        example: 304.4
+        type: number
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      amount: 183.517764
+      bonus: 304.4
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/wallet/show/{id}'
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: et
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: et
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/wallet/update/{id}'
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Update the specified resource in storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: nihil
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: nihil
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      amount:
+        name: amount
+        description: ''
+        required: true
+        example: 28.44838
+        type: number
+        enumValues: []
+        custom: []
+      bonus:
+        name: bonus
+        description: ''
+        required: true
+        example: 2451.91091526
+        type: number
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      amount: 28.44838
+      bonus: 2451.91091526
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/wallet/delete/{id}'
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Remove the specified resource from storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: fugit
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: fugit
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/wallet/balance
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/wallet/increase/amount
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      package_coin_id:
+        name: package_coin_id
+        description: ''
+        required: true
+        example: autem
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      package_coin_id: autem
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/wallet/decrease/amount
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      package_coin_id:
+        name: package_coin_id
+        description: ''
+        required: true
+        example: voluptatem
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      package_coin_id: voluptatem
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/wallet/increase/bonus
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/wallet/decrease/bonus
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      package_coin_id:
+        name: package_coin_id
+        description: ''
+        required: true
+        example: dolor
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      package_coin_id: dolor
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/wallet/preview_invoice
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      question_quantity:
+        name: question_quantity
+        description: ''
+        required: true
+        example: illo
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      question_quantity: illo
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/wallet/histories
+    metadata:
+      groupName: 'Wallet Section'
+      groupDescription: |-
+
+        API endpoints for Wallet Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های wallet موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Enums;
+
+enum {{className}}: string
+{
+    const Sample = "sample";
+    const Number = 123;
+    const ALL = [
+        self::Sample,
+        self::Number,
+    ];
+}

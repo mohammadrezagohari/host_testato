@@ -1,0 +1,215 @@
+name: Suggestion
+description: |-
+
+  API endpoints for Suggestion
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/suggestion
+    metadata:
+      groupName: Suggestion
+      groupDescription: |-
+
+        API endpoints for Suggestion
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Suggestion موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/suggestion/store
+    metadata:
+      groupName: Suggestion
+      groupDescription: |-
+
+        API endpoints for Suggestion
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Suggestion موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      context:
+        name: context
+        description: ''
+        required: false
+        example: corporis
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      context: corporis
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/suggestion/show/{id}'
+    metadata:
+      groupName: Suggestion
+      groupDescription: |-
+
+        API endpoints for Suggestion
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Suggestion موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: totam
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: totam
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/suggestion/update/{id}'
+    metadata:
+      groupName: Suggestion
+      groupDescription: |-
+
+        API endpoints for Suggestion
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Suggestion موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Update the specified resource in storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: vel
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: vel
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      context:
+        name: context
+        description: ''
+        required: false
+        example: dignissimos
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      context: dignissimos
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/suggestion/delete/{id}'
+    metadata:
+      groupName: Suggestion
+      groupDescription: |-
+
+        API endpoints for Suggestion
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Suggestion موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Remove the specified resource from storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: explicabo
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: explicabo
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

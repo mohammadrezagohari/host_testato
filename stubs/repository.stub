@@ -1,0 +1,23 @@
+<?php
+namespace App\Repositories\MySQL\{{className}}Repository;
+use App\Repositories\MySQL\{{className}}Repository\Interface{{className}}Repository;
+use App\Repositories\MySQL\BaseRepository;
+use App\Models\{{className}};
+
+class {{className}}Repository extends BaseRepository implements Interface{{className}}Repository
+{
+    /***********************
+     * @var {{className}} $model
+     ***********************/
+    protected {{className}} $model;
+
+    /*************************
+     * @param {{className}} $model
+     * pass our model to the BaseRepository
+     *************************/
+    public function __construct({{className}} $model)
+    {
+        parent::__construct($model);
+        $this->model = $model;
+    }
+}

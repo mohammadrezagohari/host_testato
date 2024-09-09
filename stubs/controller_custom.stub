@@ -1,0 +1,90 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use App\Http\Requests\{{className}}\{{className}}Request;
+use App\Http\Resources\{{className}}\{{className}}Resource;
+use App\Repositories\MySQL\{{className}}Repository\Interface{{className}}Repository;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
+use Symfony\Component\HttpFoundation\Response as HTTPResponse;
+
+/**
+ * @group {{className}}
+ *
+ * API endpoints for {{className}}
+ *
+ * @subgroupDescription برای دسترسی به بخش های {{className}} موبایل از این طریق به اطلاعات دسترسی پیدا کنید
+ */
+class {{className}}Controller extends Controller
+{
+    private Interface{{className}}Repository $interface{{className}}Repository;
+
+    public function __construct(Interface{{className}}Repository $interface{{className}}Repository)
+    {
+        $this->interface{{className}}Repository = $interface{{className}}Repository;
+    }
+
+    public function index(Request $request): AnonymousResourceCollection
+    {
+        $count = @$request->count ?? 10;
+        $keyword = @$request->keyword;
+        $collection = $this->interface{{className}}Repository->query();
+
+        if (@$keyword)
+            $collection = $collection->searchByName($keyword);
+        $collection = $collection->paginate($count);
+        return {{className}}Resource::collection($collection);
+    }
+
+    /***************
+     * @param {{className}}Request $request
+     * @return JsonResponse
+     */
+    public function store({{className}}Request $request): JsonResponse
+    {
+        $data = $request->except(["_token"]);
+        if ($this->interface{{className}}Repository->insertData($data))
+            return response()->json(['message' => 'successfully your transaction!', 'status' => true], HTTPResponse::HTTP_OK);
+        return response()->json(['message' => 'sorry, your transaction fails!','status'=>false], HTTPResponse::HTTP_BAD_REQUEST);
+    }
+
+    /**************************
+     * @param int $id
+     * @return {{className}}Resource
+     */
+    public function show(int $id): {{className}}Resource
+    {
+        return {{className}}Resource::make($this->interface{{className}}Repository->findById($id));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     * @param {{className}}Request $request
+     * @param int $id
+     * @return JsonResponse
+     */
+    public function update(int $id, {{className}}Request $request): JsonResponse
+    {
+        $data = $request->except(['_token']);
+        if ($this->interface{{className}}Repository->updateItem($id, $data))
+            return response()->json(['message' => 'successfully your transaction!', 'status' => true], HTTPResponse::HTTP_OK);
+        return response()->json(['message' => 'sorry, your transaction fails!','status'=>false], HTTPResponse::HTTP_BAD_REQUEST);
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param int $id
+     * @return JsonResponse
+     */
+    public function destroy($id): JsonResponse
+    {
+        if ($this->interface{{className}}Repository->deleteData($id))
+            return response()->json(['message' => 'successfully your transaction!', 'status' => true], HTTPResponse::HTTP_OK);
+        return response()->json(['message' => 'sorry, your transaction fails!','status'=>false], HTTPResponse::HTTP_BAD_REQUEST);
+    }
+}
+

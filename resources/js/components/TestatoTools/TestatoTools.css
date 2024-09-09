@@ -1,0 +1,15 @@
+.tl-container .testato-tools-container .tools-itmems {
+  border-radius: 30px;
+}
+.tl-container .testato-tools-container .tools-itmems:nth-child(1) {
+  background-color: #FCE9D2;
+}
+.tl-container .testato-tools-container .tools-itmems:nth-child(2) {
+  background-color: #DED2FC;
+}
+.tl-container .testato-tools-container .tools-itmems:nth-child(3) {
+  background-color: #D2E5FC;
+}
+.tl-container .testato-tools-container .tools-itmems:nth-child(4) {
+  background-color: #FCD9D2;
+}/*# sourceMappingURL=TestatoTools.css.map */

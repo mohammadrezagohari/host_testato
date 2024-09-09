@@ -1,0 +1,9 @@
+<?php
+
+namespace App\Repositories\MySQL\{{className}}Repository;
+use App\Repositories\MySQL\IBaseRepository;
+
+interface Interface{{className}}Repository extends IBaseRepository
+{
+    // Declare your repository methods here
+}

@@ -1,0 +1,414 @@
+name: Version
+description: |-
+
+  API endpoints for Version control
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/version/statistic
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/version/latest
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/version
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/version/store
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      version_base:
+        name: version_base
+        description: ''
+        required: true
+        example: 1285333.8676457
+        type: number
+        enumValues: []
+        custom: []
+      version_name:
+        name: version_name
+        description: ''
+        required: true
+        example: voluptas
+        type: string
+        enumValues: []
+        custom: []
+      application_file:
+        name: application_file
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      type:
+        name: type
+        description: ''
+        required: true
+        example: data
+        type: string
+        enumValues:
+          - data
+          - app
+        custom: []
+    cleanBodyParameters:
+      version_base: 1285333.8676457
+      version_name: voluptas
+      type: data
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/version/store_version_file
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/version/show/{id}'
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: saepe
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: saepe
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/version/update/{id}'
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: est
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: est
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      version_base:
+        name: version_base
+        description: ''
+        required: true
+        example: 3.52433
+        type: number
+        enumValues: []
+        custom: []
+      version_name:
+        name: version_name
+        description: ''
+        required: true
+        example: assumenda
+        type: string
+        enumValues: []
+        custom: []
+      application_file:
+        name: application_file
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      type:
+        name: type
+        description: ''
+        required: true
+        example: data
+        type: string
+        enumValues:
+          - data
+          - app
+        custom: []
+    cleanBodyParameters:
+      version_base: 3.52433
+      version_name: assumenda
+      type: data
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/version/delete/{id}'
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: laboriosam
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: laboriosam
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/version/latest/download
+    metadata:
+      groupName: Version
+      groupDescription: |-
+
+        API endpoints for Version control
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Version موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"link":"https:\/\/testato.ir\/storage\/uploads\/data\/1706607872-7279.jpg"}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '52'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

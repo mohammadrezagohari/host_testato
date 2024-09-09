@@ -1,0 +1,203 @@
+@import '../../../sass/_variables.scss';
+
+.about-testato-container{
+    >h2{
+        color:$main-color;
+    }
+    .childControl{
+        .info-container{
+               &:nth-child(2){
+                display: flex;
+                flex-direction:row-reverse;
+                justify-content: space-between;  
+        }
+    }
+        
+    }
+}
+
+.image-section{
+    position: relative;
+    height:400px;
+    background-image:  url('../../../images/svgs/1511 2.svg'),url('../../../images/svgs/Ellipse 72.svg');
+    background-position: center center, center center;
+    background-size: 100% 100%,85% 85%;
+  
+}
+.image-section , .phoneImage{
+    background-repeat: no-repeat;
+}
+
+
+.why-testato{
+    >.flex-items{
+        width:100%;
+        >.dec-container{ 
+            >.btn-container{
+                >button {
+                    background-color:$main-color5 ;
+                    color:$main-color2;
+                    &:hover{
+                        background-color: $main-color2;
+                        color:$main-color5;
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@media (max-width: 575.98px) {
+    .why-testato{
+        >.flex-items{
+            >.dec-container{ 
+                >.btn-container{
+                    >button {
+                        background-color:$main-color5 ;
+                        color:$main-color2;
+                        &:hover{
+                            background-color: $main-color2;
+                            color:$main-color5;
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+    .about-testato-container{
+        >.childControl{
+            >.info-container{
+                display: flex;
+                flex-direction: column;
+                >.info-section{
+                    min-width: 100%;
+                }
+                >.image-section{
+                        // min-width: 100%;
+                        position: relative;
+                        height:300px;
+                }
+                &:nth-child(2){
+                    display: flex;
+                    flex-direction:column;
+                }
+         }
+    }
+
+ }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.9px){
+    .about-testato-container{
+        >h2{
+            color:$main-color;
+        }
+        .childControl{
+         
+            .info-container{
+                   &:nth-child(2){
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: space-between;  
+            }
+        }
+            
+        }
+    }
+}
+
+
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+  
+    .why-testato{
+        >.flex-items{
+            width:100%;
+            display: flex;
+            flex-direction: column!important;
+            >.img-container{
+                margin-top:3rem;
+                max-width: 100%;
+                >img{
+                    max-width: 50%;
+                }
+            }
+            >.dec-container{ 
+                >.btn-container{
+                    flex-direction: column;
+                    >button {
+                        background-color:$main-color5 ;
+                        color:$main-color2;
+                        &:hover{
+                            color:$main-color5;
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+    .about-testato-container{
+        >.childControl{
+            >.info-container{
+                &:nth-child(2){
+                    display: flex;
+                    flex-direction:column;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:992px) {
+  
+    .why-testato{
+        >.flex-items{
+            width:100%;
+            display: flex;
+            flex-direction: row!important;
+            >.img-container{
+                margin:0;
+                max-width: 50%;
+              
+            }
+            >.dec-container{ 
+                >.btn-container{
+                    margin: 0;
+                    >button {
+                        display: flex;
+                        
+                        justify-content: center;
+                        background-color:$main-color5 ;
+                        color:$main-color2;
+                        &:hover{
+                            background-color: $main-color2;
+                            color:$main-color5;
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+    .about-testato-container{
+        >.childControl{
+            >.info-container{
+                flex-direction:row;
+                &:nth-child(2){
+                    display: flex;
+                    flex-direction:row-reverse;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

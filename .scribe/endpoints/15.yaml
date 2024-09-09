@@ -1,0 +1,808 @@
+name: Exams
+description: |-
+
+  API endpoints for Exams
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/exam/statistic
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/exam
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/exam/status
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/exam/show/{id}'
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: nesciunt
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: nesciunt
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/exam/finish-exam/{id}'
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the finish exam.'
+        required: true
+        example: eos
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: eos
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/exam/history
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      keyword:
+        name: keyword
+        description: ''
+        required: false
+        example: totam
+        type: string
+        enumValues: []
+        custom: []
+      date_start:
+        name: date_start
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      date_end:
+        name: date_end
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      count:
+        name: count
+        description: ''
+        required: false
+        example: 1704037.0
+        type: number
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      keyword: totam
+      count: 1704037.0
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/exam/show_details_question
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      exam_id:
+        name: exam_id
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      question_id:
+        name: question_id
+        description: ''
+        required: true
+        example: laboriosam
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      question_id: laboriosam
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/exam/list/me
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/exam/list/user
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      user_id:
+        name: user_id
+        description: ''
+        required: true
+        example: voluptate
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      user_id: voluptate
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/exam/list/last_month_me
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      start_at:
+        name: start_at
+        description: 'value یک تاریخ معتبر نیست.'
+        required: true
+        example: '2024-04-03T12:29:06'
+        type: string
+        enumValues: []
+        custom: []
+      end_at:
+        name: end_at
+        description: 'value یک تاریخ معتبر نیست.'
+        required: true
+        example: '2024-04-03T12:29:06'
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      start_at: '2024-04-03T12:29:06'
+      end_at: '2024-04-03T12:29:06'
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/exam/student_store
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      level_id:
+        name: level_id
+        description: ''
+        required: true
+        example: delectus
+        type: string
+        enumValues: []
+        custom: []
+      course_id:
+        name: course_id
+        description: ''
+        required: true
+        example: laborum
+        type: string
+        enumValues: []
+        custom: []
+      question_quantity:
+        name: question_quantity
+        description: ''
+        required: true
+        example: 558343032.00587
+        type: number
+        enumValues: []
+        custom: []
+      silver_coin:
+        name: silver_coin
+        description: ''
+        required: true
+        example: 1268127.56
+        type: number
+        enumValues: []
+        custom: []
+      gold_coin:
+        name: gold_coin
+        description: ''
+        required: true
+        example: 15.19176
+        type: number
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      level_id: delectus
+      course_id: laborum
+      question_quantity: 558343032.00587
+      silver_coin: 1268127.56
+      gold_coin: 15.19176
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/exam/list/by/course/{course_id}'
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      course_id:
+        name: course_id
+        description: 'The ID of the course.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      course_id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/exam/store
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      level_id:
+        name: level_id
+        description: ''
+        required: true
+        example: quis
+        type: string
+        enumValues: []
+        custom: []
+      course_id:
+        name: course_id
+        description: ''
+        required: true
+        example: vero
+        type: string
+        enumValues: []
+        custom: []
+      question_quantity:
+        name: question_quantity
+        description: ''
+        required: true
+        example: 177.311
+        type: number
+        enumValues: []
+        custom: []
+      answer_quantity:
+        name: answer_quantity
+        description: ''
+        required: true
+        example: 62358.402
+        type: number
+        enumValues: []
+        custom: []
+      time_exam:
+        name: time_exam
+        description: ''
+        required: true
+        example: 4.933756786
+        type: number
+        enumValues: []
+        custom: []
+      status:
+        name: status
+        description: ''
+        required: false
+        example: 'شروع شده'
+        type: string
+        enumValues:
+          - 'ساخته شده'
+          - 'شروع شده'
+          - 'در حال انجام'
+          - 'انجام شده'
+          - 'زمان آزمون به اتمام رسیده'
+          - 'بدون پاسخ'
+          - 'متوقف شده'
+        custom: []
+      score:
+        name: score
+        description: ''
+        required: false
+        example: 2659.9851
+        type: number
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      level_id: quis
+      course_id: vero
+      question_quantity: 177.311
+      answer_quantity: 62358.402
+      time_exam: 4.933756786
+      status: 'شروع شده'
+      score: 2659.9851
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/exam/update/{id}'
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Update the specified resource in storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: et
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: et
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      level_id:
+        name: level_id
+        description: ''
+        required: true
+        example: aut
+        type: string
+        enumValues: []
+        custom: []
+      course_id:
+        name: course_id
+        description: ''
+        required: true
+        example: animi
+        type: string
+        enumValues: []
+        custom: []
+      question_quantity:
+        name: question_quantity
+        description: ''
+        required: true
+        example: 65.63845813
+        type: number
+        enumValues: []
+        custom: []
+      answer_quantity:
+        name: answer_quantity
+        description: ''
+        required: true
+        example: 161333349.79
+        type: number
+        enumValues: []
+        custom: []
+      time_exam:
+        name: time_exam
+        description: ''
+        required: true
+        example: 26250.5729513
+        type: number
+        enumValues: []
+        custom: []
+      status:
+        name: status
+        description: ''
+        required: false
+        example: 'زمان آزمون به اتمام رسیده'
+        type: string
+        enumValues:
+          - 'ساخته شده'
+          - 'شروع شده'
+          - 'در حال انجام'
+          - 'انجام شده'
+          - 'زمان آزمون به اتمام رسیده'
+          - 'بدون پاسخ'
+          - 'متوقف شده'
+        custom: []
+      score:
+        name: score
+        description: ''
+        required: false
+        example: 43098043.785471
+        type: number
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      level_id: aut
+      course_id: animi
+      question_quantity: 65.63845813
+      answer_quantity: 161333349.79
+      time_exam: 26250.5729513
+      status: 'زمان آزمون به اتمام رسیده'
+      score: 43098043.785471
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/exam/delete/{id}'
+    metadata:
+      groupName: Exams
+      groupDescription: |-
+
+        API endpoints for Exams
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Exams موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Remove the specified resource from storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: earum
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: earum
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

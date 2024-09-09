@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "kalameh";
+  src: url("../../fonts/kalameh/Kalameh Bold.eot"); /* IE9*/
+  src: url("../../fonts/kalameh/Kalameh Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/kalameh/Kalameh Bold.woff2") format("woff2"), url("../../fonts/kalameh/Kalameh Bold.woff") format("woff"), url("../../fonts/kalameh/Kalameh Bold.ttf") format("truetype"), url("../../fonts/kalameh/Kalameh Bold.svg#Kalameh Bold") format("svg"); /* iOS 4.1- */
+}
+@font-face {
+  font-family: "kalameh2";
+  src: url("../../fonts/kalameh/woff/KalamehWeb_Bold.woff"); /* IE9*/
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+  font-family: "kalameh", serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=app.css.map */

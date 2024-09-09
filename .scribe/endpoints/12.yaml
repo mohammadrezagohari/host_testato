@@ -1,0 +1,343 @@
+name: Story
+description: |-
+
+  API endpoints for Story
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/story
+    metadata:
+      groupName: Story
+      groupDescription: |-
+
+        API endpoints for Story
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Story موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/story/store
+    metadata:
+      groupName: Story
+      groupDescription: |-
+
+        API endpoints for Story
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Story موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: 'value نباید کمتر از 3 کاراکتر باشد. value نباید بیشتر از 150 کاراکتر باشد.'
+        required: true
+        example: hbtgqjr
+        type: string
+        enumValues: []
+        custom: []
+      expire_at:
+        name: expire_at
+        description: ''
+        required: true
+        example: corrupti
+        type: string
+        enumValues: []
+        custom: []
+      link:
+        name: link
+        description: 'Must be a valid URL.'
+        required: false
+        example: 'http://stracke.com/quidem-quas-facere-hic-quisquam'
+        type: string
+        enumValues: []
+        custom: []
+      priority_order:
+        name: priority_order
+        description: 'value نباید کوچکتر از 0 باشد. value نباید بزرگتر از 50 باشد.'
+        required: true
+        example: 20
+        type: number
+        enumValues: []
+        custom: []
+      file_url:
+        name: file_url
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      image_preview:
+        name: image_preview
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      title: hbtgqjr
+      expire_at: corrupti
+      link: 'http://stracke.com/quidem-quas-facere-hic-quisquam'
+      priority_order: 20
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/story/show/{id}'
+    metadata:
+      groupName: Story
+      groupDescription: |-
+
+        API endpoints for Story
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Story موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: pariatur
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: pariatur
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/story/update/{id}'
+    metadata:
+      groupName: Story
+      groupDescription: |-
+
+        API endpoints for Story
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Story موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Update the specified resource in storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: sunt
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: sunt
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: 'value نباید کمتر از 3 کاراکتر باشد. value نباید بیشتر از 150 کاراکتر باشد.'
+        required: true
+        example: wvvkxtmvftmhfsaku
+        type: string
+        enumValues: []
+        custom: []
+      expire_at:
+        name: expire_at
+        description: ''
+        required: true
+        example: officia
+        type: string
+        enumValues: []
+        custom: []
+      link:
+        name: link
+        description: 'Must be a valid URL.'
+        required: false
+        example: 'http://www.yundt.biz/aut-laborum-cupiditate-dolor-quo'
+        type: string
+        enumValues: []
+        custom: []
+      priority_order:
+        name: priority_order
+        description: 'value نباید کوچکتر از 0 باشد. value نباید بزرگتر از 50 باشد.'
+        required: true
+        example: 10
+        type: number
+        enumValues: []
+        custom: []
+      file_url:
+        name: file_url
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      image_preview:
+        name: image_preview
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      title: wvvkxtmvftmhfsaku
+      expire_at: officia
+      link: 'http://www.yundt.biz/aut-laborum-cupiditate-dolor-quo'
+      priority_order: 10
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/story/delete/{id}'
+    metadata:
+      groupName: Story
+      groupDescription: |-
+
+        API endpoints for Story
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Story موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Remove the specified resource from storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: eligendi
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: eligendi
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/story/visited/{id}'
+    metadata:
+      groupName: Story
+      groupDescription: |-
+
+        API endpoints for Story
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Story موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the visited.'
+        required: true
+        example: deleniti
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: deleniti
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

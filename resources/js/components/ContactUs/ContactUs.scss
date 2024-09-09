@@ -1,0 +1,54 @@
+//@font-face {
+//    font-family: 'kalameh2';
+//    src: url("../../fonts/kalameh/woff/KalamehWeb_Bold.woff"), /* IE9*/
+//    url("../../fonts/kalameh/woff/KalamehWeb_Bold.woff") format("woff2"); /* chrome、firefox */
+//}
+//@font-face {
+//    font-family: 'kalameh';
+//    src: url("../../fonts/kalameh/Kalameh Bold.eot"); /* IE9*/
+//    src: url("../../fonts/kalameh/Kalameh Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+//    url("../../fonts/kalameh/Kalameh Bold.woff2") format("woff2"), /* chrome、firefox */
+//    url("../../fonts/kalameh/Kalameh Bold.woff") format("woff"), /* chrome、firefox */
+//    url("../../fonts/kalameh/Kalameh Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+//    url("../../fonts/kalameh/Kalameh Bold.svg#Kalameh Bold") format("svg"); /* iOS 4.1- */
+//}
+
+.contactModal{
+    transition: all .3s;
+}
+.contactInfo{
+    h2{
+        font-family: 'kalameh2', serif;
+    }
+}
+ul{
+    >li{
+        &:nth-child(1){
+            > span {
+               border-bottom:2px solid #A490E7;
+               padding-bottom:.8rem;
+            }
+        }
+        &:nth-child(2){
+            > span {
+               border-bottom:2px solid #E79990;
+               padding-bottom:.8rem;
+            }
+        }
+        &:nth-child(3){
+            > span {
+                border-bottom:2px solid #909DE7;
+                padding-bottom:.8rem;
+            }
+        }
+        &:nth-child(4){
+            > span {
+                border-bottom:2px solid #E790A7;
+                padding-bottom:.8rem;
+            }
+        }
+        > span {
+            color: #595B5D;
+        }
+    }
+}

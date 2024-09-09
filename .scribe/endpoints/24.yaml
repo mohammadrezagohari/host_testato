@@ -1,0 +1,513 @@
+name: Question
+description: |-
+
+  API endpoints for Question Services
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/question/statistic
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/question
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/question/list
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      exam_id:
+        name: exam_id
+        description: ''
+        required: true
+        example: veniam
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      exam_id: veniam
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/question/show_details_question_without_answer/{id}'
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show details question without answer.'
+        required: true
+        example: ducimus
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: ducimus
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/question/store
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: ''
+        required: true
+        example: nemo
+        type: string
+        enumValues: []
+        custom: []
+      level:
+        name: level
+        description: ''
+        required: true
+        example: totam
+        type: string
+        enumValues: []
+        custom: []
+      course:
+        name: course
+        description: ''
+        required: true
+        example: qui
+        type: string
+        enumValues: []
+        custom: []
+      unit:
+        name: unit
+        description: ''
+        required: true
+        example: molestiae
+        type: string
+        enumValues: []
+        custom: []
+      section:
+        name: section
+        description: ''
+        required: true
+        example: sit
+        type: string
+        enumValues: []
+        custom: []
+      grade:
+        name: grade
+        description: ''
+        required: true
+        example: eligendi
+        type: string
+        enumValues: []
+        custom: []
+      image:
+        name: image
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      title: nemo
+      level: totam
+      course: qui
+      unit: molestiae
+      section: sit
+      grade: eligendi
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/question/store_video_step/{id}'
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the store video step.'
+        required: true
+        example: voluptatem
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: voluptatem
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/question/store_collection
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/question/show/{id}'
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: expedita
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: expedita
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/question/update/{id}'
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: perferendis
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: perferendis
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: ''
+        required: true
+        example: quo
+        type: string
+        enumValues: []
+        custom: []
+      level:
+        name: level
+        description: ''
+        required: true
+        example: ipsam
+        type: string
+        enumValues: []
+        custom: []
+      course:
+        name: course
+        description: ''
+        required: true
+        example: possimus
+        type: string
+        enumValues: []
+        custom: []
+      unit:
+        name: unit
+        description: ''
+        required: true
+        example: et
+        type: string
+        enumValues: []
+        custom: []
+      section:
+        name: section
+        description: ''
+        required: true
+        example: quasi
+        type: string
+        enumValues: []
+        custom: []
+      grade:
+        name: grade
+        description: ''
+        required: true
+        example: autem
+        type: string
+        enumValues: []
+        custom: []
+      image:
+        name: image
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      title: quo
+      level: ipsam
+      course: possimus
+      unit: et
+      section: quasi
+      grade: autem
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/question/delete/{id}'
+    metadata:
+      groupName: Question
+      groupDescription: |-
+
+        API endpoints for Question Services
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های Question موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Remove the specified resource from storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: reprehenderit
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: reprehenderit
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

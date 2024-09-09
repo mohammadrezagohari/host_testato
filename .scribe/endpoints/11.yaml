@@ -1,0 +1,297 @@
+name: SlideShow
+description: |-
+
+  لیست API های اسلایدر
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/slider
+    metadata:
+      groupName: SlideShow
+      groupDescription: |-
+
+        لیست API های اسلایدر
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های اسلاید شو موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/slider/store
+    metadata:
+      groupName: SlideShow
+      groupDescription: |-
+
+        لیست API های اسلایدر
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های اسلاید شو موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: ''
+        required: true
+        example: cumque
+        type: string
+        enumValues: []
+        custom: []
+      priority_order:
+        name: priority_order
+        description: ''
+        required: true
+        example: 24.34481
+        type: number
+        enumValues: []
+        custom: []
+      file_url:
+        name: file_url
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      mime_type:
+        name: mime_type
+        description: ''
+        required: true
+        example: image/webp
+        type: string
+        enumValues:
+          - image/jpg
+          - image/jpeg
+          - image/png
+          - image/bmp
+          - image/tiff
+          - image/webp
+        custom: []
+      file_size:
+        name: file_size
+        description: 'value نباید بیشتر از 4048 کاراکتر باشد.'
+        required: true
+        example: fugdgyq
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      title: cumque
+      priority_order: 24.34481
+      mime_type: image/webp
+      file_size: fugdgyq
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/slider/show/{id}'
+    metadata:
+      groupName: SlideShow
+      groupDescription: |-
+
+        لیست API های اسلایدر
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های اسلاید شو موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the show.'
+        required: true
+        example: fugit
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: fugit
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/slider/update/{id}'
+    metadata:
+      groupName: SlideShow
+      groupDescription: |-
+
+        لیست API های اسلایدر
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های اسلاید شو موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Update the specified resource in storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the update.'
+        required: true
+        example: et
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: et
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: ''
+        required: true
+        example: natus
+        type: string
+        enumValues: []
+        custom: []
+      priority_order:
+        name: priority_order
+        description: ''
+        required: true
+        example: 198709.372092
+        type: number
+        enumValues: []
+        custom: []
+      file_url:
+        name: file_url
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        custom: []
+      mime_type:
+        name: mime_type
+        description: ''
+        required: true
+        example: image/jpeg
+        type: string
+        enumValues:
+          - image/jpg
+          - image/jpeg
+          - image/png
+          - image/bmp
+          - image/tiff
+          - image/webp
+        custom: []
+      file_size:
+        name: file_size
+        description: 'value نباید بیشتر از 4048 کاراکتر باشد.'
+        required: true
+        example: aqmfbreuoh
+        type: string
+        enumValues: []
+        custom: []
+    cleanBodyParameters:
+      title: natus
+      priority_order: 198709.372092
+      mime_type: image/jpeg
+      file_size: aqmfbreuoh
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/slider/delete/{id}'
+    metadata:
+      groupName: SlideShow
+      groupDescription: |-
+
+        لیست API های اسلایدر
+      subgroup: ''
+      subgroupDescription: 'برای دسترسی به بخش های اسلاید شو موبایل از این طریق به اطلاعات دسترسی پیدا کنید'
+      title: 'Remove the specified resource from storage.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+      Authorization: your_token
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the delete.'
+        required: true
+        example: tenetur
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: tenetur
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

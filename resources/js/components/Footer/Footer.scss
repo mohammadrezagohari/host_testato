@@ -1,0 +1,90 @@
+@import '../../../sass/variables';
+footer{
+    height:639px;
+    background-image: url('../../../images/بنر-لندینگ 1.png');
+    >h1{
+      padding-top:5rem ; 
+      padding-right:7rem ; 
+    }
+    >.btn-container{
+        margin-top: 7rem;
+        // padding-right: 2rem;
+        >button{  
+            background-color: $main-color3;
+            color: $main-color2;
+            &:hover{
+                background-color: $main-color2;
+                color:$main-color4;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+  footer{
+    height:580px;
+    background-image:url('../../../images/بنر---لندینگ---موبایلی\ 2.png');
+  }
+  footer{
+    >h1{
+        padding-top:5rem ; 
+        padding-right:2rem ; 
+      }
+    > .btn-container{
+      margin-top:3rem;
+        width: 100%;
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+   }
+    
+    }
+}
+
+   
+  @media (min-width: 641px)and (max-width: 767.9px) {
+  
+    footer{
+        height:580px;
+        >h1{
+            padding-top:5rem ; 
+            padding-right:4rem ; 
+          }
+        >.btn-container{
+            width: 50%;
+            margin-top: 2rem;
+            margin-right: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+       } 
+  }
+  @media (min-width: 768px)and (max-width: 991.9px) {
+ 
+    footer{
+        >h1{
+            padding-top:5rem ; 
+            padding-right:4.5rem ; 
+          }
+        >.btn-container{
+            margin-top: 2rem;
+            margin-right: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 50%;
+        }
+       } 
+  }
+  
+  @media (min-width: 992px) {
+   footer{
+    >.btn-container{
+        padding-right: 7rem;
+   } 
+}
+  
+}
+ 
+ 
