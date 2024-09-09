@@ -1,0 +1,206 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-881344b8.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/fonts/kalameh/Kalameh Bold.eot": {
+    "file": "assets/Kalameh Bold-0c8ee57d.eot",
+    "src": "resources/fonts/kalameh/Kalameh Bold.eot"
+  },
+  "resources/fonts/kalameh/Kalameh Bold.otf": {
+    "file": "assets/Kalameh Bold-21d4697d.otf",
+    "src": "resources/fonts/kalameh/Kalameh Bold.otf"
+  },
+  "resources/fonts/kalameh/Kalameh Bold.svg": {
+    "file": "assets/Kalameh Bold-9788ec84.svg",
+    "src": "resources/fonts/kalameh/Kalameh Bold.svg"
+  },
+  "resources/fonts/kalameh/Kalameh Bold.ttf": {
+    "file": "assets/Kalameh Bold-8e4a1117.ttf",
+    "src": "resources/fonts/kalameh/Kalameh Bold.ttf"
+  },
+  "resources/fonts/kalameh/Kalameh Bold.woff": {
+    "file": "assets/Kalameh Bold-0b7ab79f.woff",
+    "src": "resources/fonts/kalameh/Kalameh Bold.woff"
+  },
+  "resources/fonts/kalameh/Kalameh Bold.woff2": {
+    "file": "assets/Kalameh Bold-4e585424.woff2",
+    "src": "resources/fonts/kalameh/Kalameh Bold.woff2"
+  },
+  "resources/fonts/kalameh/woff/KalamehWeb_Black.woff": {
+    "file": "assets/KalamehWeb_Black-853c74ae.woff",
+    "src": "resources/fonts/kalameh/woff/KalamehWeb_Black.woff"
+  },
+  "resources/fonts/kalameh/woff/KalamehWeb_Bold.woff": {
+    "file": "assets/KalamehWeb_Bold-121fc74a.woff",
+    "src": "resources/fonts/kalameh/woff/KalamehWeb_Bold.woff"
+  },
+  "resources/fonts/kalameh/woff/KalamehWeb_Regular.woff": {
+    "file": "assets/KalamehWeb_Regular-91aeb2b3.woff",
+    "src": "resources/fonts/kalameh/woff/KalamehWeb_Regular.woff"
+  },
+  "resources/fonts/kalameh/woff/KalamehWeb_thin.woff": {
+    "file": "assets/KalamehWeb_thin-0b21c109.woff",
+    "src": "resources/fonts/kalameh/woff/KalamehWeb_thin.woff"
+  },
+  "resources/fonts/kalameh/woff2/KalamehWeb_Black.woff2": {
+    "file": "assets/KalamehWeb_Black-8d267ae0.woff2",
+    "src": "resources/fonts/kalameh/woff2/KalamehWeb_Black.woff2"
+  },
+  "resources/fonts/kalameh/woff2/KalamehWeb_Bold.woff2": {
+    "file": "assets/KalamehWeb_Bold-bcb5f002.woff2",
+    "src": "resources/fonts/kalameh/woff2/KalamehWeb_Bold.woff2"
+  },
+  "resources/fonts/kalameh/woff2/KalamehWeb_Regular.woff2": {
+    "file": "assets/KalamehWeb_Regular-8f5afad8.woff2",
+    "src": "resources/fonts/kalameh/woff2/KalamehWeb_Regular.woff2"
+  },
+  "resources/fonts/kalameh/woff2/KalamehWeb_thin.woff2": {
+    "file": "assets/KalamehWeb_thin-c57c772a.woff2",
+    "src": "resources/fonts/kalameh/woff2/KalamehWeb_thin.woff2"
+  },
+  "resources/images/1511 2.png": {
+    "file": "assets/1511 2-4e32ecac.png",
+    "src": "resources/images/1511 2.png"
+  },
+  "resources/images/Ellipse 72.png": {
+    "file": "assets/Ellipse 72-43c266d6.png",
+    "src": "resources/images/Ellipse 72.png"
+  },
+  "resources/images/header.png": {
+    "file": "assets/header-0e440292.png",
+    "src": "resources/images/header.png"
+  },
+  "resources/images/icon/app-store-logo-1.png": {
+    "file": "assets/app-store-logo-1-5100eb84.png",
+    "src": "resources/images/icon/app-store-logo-1.png"
+  },
+  "resources/images/icon/direct-download.png": {
+    "file": "assets/direct-download-4d55412c.png",
+    "src": "resources/images/icon/direct-download.png"
+  },
+  "resources/images/icon/logo-cafe-bazar.png": {
+    "file": "assets/logo-cafe-bazar-1f9e5afb.png",
+    "src": "resources/images/icon/logo-cafe-bazar.png"
+  },
+  "resources/images/pattern.png": {
+    "file": "assets/pattern-1c8672c4.png",
+    "src": "resources/images/pattern.png"
+  },
+  "resources/images/svgs/1511 2.svg": {
+    "file": "assets/1511 2-114396b1.svg",
+    "src": "resources/images/svgs/1511 2.svg"
+  },
+  "resources/images/svgs/Download 11.svg": {
+    "file": "assets/Download 11-a88d830d.svg",
+    "src": "resources/images/svgs/Download 11.svg"
+  },
+  "resources/images/svgs/Ellipse 65.svg": {
+    "file": "assets/Ellipse 65-52837164.svg",
+    "src": "resources/images/svgs/Ellipse 65.svg"
+  },
+  "resources/images/svgs/Ellipse 72.svg": {
+    "file": "assets/Ellipse 72-e9c868a5.svg",
+    "src": "resources/images/svgs/Ellipse 72.svg"
+  },
+  "resources/images/svgs/arrow-right.svg": {
+    "file": "assets/arrow-right-17d2a8f8.svg",
+    "src": "resources/images/svgs/arrow-right.svg"
+  },
+  "resources/images/svgs/bookmark-folder-1.svg": {
+    "file": "assets/bookmark-folder-1-b81b48c5.svg",
+    "src": "resources/images/svgs/bookmark-folder-1.svg"
+  },
+  "resources/images/svgs/call-incoming.svg": {
+    "file": "assets/call-incoming-f0dcd6e1.svg",
+    "src": "resources/images/svgs/call-incoming.svg"
+  },
+  "resources/images/svgs/faq-4147338.svg": {
+    "file": "assets/faq-4147338-7b45a85d.svg",
+    "src": "resources/images/svgs/faq-4147338.svg"
+  },
+  "resources/images/svgs/google-play-arrow-png-logo-8 1.svg": {
+    "file": "assets/google-play-arrow-png-logo-8 1-8b547dff.svg",
+    "src": "resources/images/svgs/google-play-arrow-png-logo-8 1.svg"
+  },
+  "resources/images/svgs/import.svg": {
+    "file": "assets/import-4e5e0209.svg",
+    "src": "resources/images/svgs/import.svg"
+  },
+  "resources/images/svgs/instgram-icon.svg": {
+    "file": "assets/instgram-icon-05a8ae86.svg",
+    "src": "resources/images/svgs/instgram-icon.svg"
+  },
+  "resources/images/svgs/location.svg": {
+    "file": "assets/location-b802777f.svg",
+    "src": "resources/images/svgs/location.svg"
+  },
+  "resources/images/svgs/mobile.svg": {
+    "file": "assets/mobile-f3a3663e.svg",
+    "src": "resources/images/svgs/mobile.svg"
+  },
+  "resources/images/svgs/mokap-mobile-file2.svg": {
+    "file": "assets/mokap-mobile-file2-e85e3054.svg",
+    "src": "resources/images/svgs/mokap-mobile-file2.svg"
+  },
+  "resources/images/svgs/sms.svg": {
+    "file": "assets/sms-d9788308.svg",
+    "src": "resources/images/svgs/sms.svg"
+  },
+  "resources/images/svgs/vector-info-call.svg": {
+    "file": "assets/vector-info-call-0f8de0b3.svg",
+    "src": "resources/images/svgs/vector-info-call.svg"
+  },
+  "resources/images/svgs/wallet-money-1.svg": {
+    "file": "assets/wallet-money-1-5fb13461.svg",
+    "src": "resources/images/svgs/wallet-money-1.svg"
+  },
+  "resources/images/svgs/write-document-icon-3d.svg": {
+    "file": "assets/write-document-icon-3d-4ab35822.svg",
+    "src": "resources/images/svgs/write-document-icon-3d.svg"
+  },
+  "resources/images/بنر---لندینگ---موبایلی 2.png": {
+    "file": "assets/بنر---لندینگ---موبایلی 2-499e9581.png",
+    "src": "resources/images/بنر---لندینگ---موبایلی 2.png"
+  },
+  "resources/images/بنر-لندینگ 1.png": {
+    "file": "assets/بنر-لندینگ 1-d8ef4323.png",
+    "src": "resources/images/بنر-لندینگ 1.png"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-c694da9a.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/header-0e440292.png",
+      "assets/vector-info-call-0f8de0b3.svg",
+      "assets/app-store-logo-1-5100eb84.png",
+      "assets/logo-cafe-bazar-1f9e5afb.png",
+      "assets/direct-download-4d55412c.png",
+      "assets/mokap-mobile-file2-e85e3054.svg",
+      "assets/wallet-money-1-5fb13461.svg",
+      "assets/bookmark-folder-1-b81b48c5.svg",
+      "assets/faq-4147338-7b45a85d.svg",
+      "assets/write-document-icon-3d-4ab35822.svg",
+      "assets/pattern-1c8672c4.png",
+      "assets/1511 2-114396b1.svg",
+      "assets/Ellipse 72-e9c868a5.svg",
+      "assets/بنر-لندینگ 1-d8ef4323.png",
+      "assets/بنر---لندینگ---موبایلی 2-499e9581.png",
+      "assets/Kalameh Bold-0c8ee57d.eot",
+      "assets/Kalameh Bold-4e585424.woff2",
+      "assets/Kalameh Bold-0b7ab79f.woff",
+      "assets/Kalameh Bold-8e4a1117.ttf",
+      "assets/Kalameh Bold-9788ec84.svg",
+      "assets/KalamehWeb_Bold-121fc74a.woff"
+    ],
+    "css": [
+      "assets/app-c694da9a.css"
+    ],
+    "file": "assets/app-0431b656.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
