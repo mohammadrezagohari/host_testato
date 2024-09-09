@@ -6,7 +6,7 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.13",
-        "axios": "^1.1.2",
+        "axios": "^1.7.4",
         "eslint-config-google": "^0.14.0",
         "eslint-plugin-react": "^7.32.1",
         "laravel-vite-plugin": "^0.7.2",
